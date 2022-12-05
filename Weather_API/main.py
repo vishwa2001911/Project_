@@ -25,7 +25,7 @@ class weather:
     
     def temp_kelvin_to_celcius(): 
         C = response["main"]["temp"]-273.15
-        return f"{round(C, 1)}°C"
+        return f"{round(C, 1)}°C
     
     def humidity():
         return str(response["main"]["humidity"])+"%"
