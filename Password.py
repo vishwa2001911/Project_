@@ -3,8 +3,6 @@
 #
 #
 
-
-
 import random
 
 def password_genarater(length):
@@ -20,6 +18,6 @@ def password_genarater(length):
     
     return f"Your password is :-{password}"
     
-
-x = int(input("password length:-"))
-print(Password_genarater(x))
+if __name__=="__main__":
+  x = int(input("password length:-"))
+  print(Password_genarater(x))
